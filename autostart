@@ -21,6 +21,8 @@ hc keyunbind --all
 #Mod=Mod1    # Use alt as the main modifier
 Mod=Mod4   # Use the super key as the main modifier
 ORANGE='#D65D0E'
+RED='cc241d'
+BLUE='458588'
 hc keybind $Mod-d spawn dmenu_run
 hc keybind $Mod-e spawn emacsclient -c -a 'emacs'
 hc keybind $Mod-Shift-e quit
@@ -144,8 +146,8 @@ hc attr theme.border_width 0
 hc attr theme.floating.border_width 4
 hc attr theme.floating.outer_width 0
 hc attr theme.floating.outer_color black
-hc attr theme.active.inner_color '#3E4A00'
-hc attr theme.active.outer_color '#3E4A00'
+hc attr theme.active.inner_color $RED
+hc attr theme.active.outer_color $BLUE
 hc attr theme.background_color white #'#141414'
 
 hc set window_gap 10
