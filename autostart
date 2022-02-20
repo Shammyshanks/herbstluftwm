@@ -10,7 +10,7 @@ hc emit_hook reload
 
 
 picom &
-syncthing &
+syncthing -no-browser &
 emacs --daemon &
 xsetroot -solid '#5A8E3A'
 pkill polybar &
