@@ -29,7 +29,7 @@ BLUE='#268bd2'
 
 hc keybind $Mod-d spawn dmenu_run
 hc keybind $Mod-e spawn emacsclient -c -a 'emacs'
-hc keybind $Mod-Shift-e quit
+hc keybind $Mod-Shift-Q quit
 hc keybind $Mod-Shift-r reload
 hc keybind $Mod-Shift-q close
 hc keybind $Mod-Shift-Return spawn "${TERMINAL:-xterm}" # use your $TERMINAL with xterm as fallbackh
