@@ -154,8 +154,8 @@ hc attr theme.active.inner_color $RED
 hc attr theme.active.outer_color $BLUE
 hc attr theme.background_color white #'#141414'
 
-hc set window_gap 3
-hc set frame_padding 0
+hc set window_gap 4
+hc set frame_padding 3
 hc set smart_window_surroundings 5
 hc set smart_frame_surroundings 5
 hc set mouse_recenter_gap 5
