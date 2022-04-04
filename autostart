@@ -13,6 +13,8 @@ picom &
 syncthing -no-browser &
 emacs --fg-daemon &
 xsetroot -solid '#5A8E3A'
+pkill sxhkd &
+sxhkd &
 pkill polybar &
 polybar -c /home/thor/.config/polybar example &
 feh --bg-scale /home/thor/.config/herbstluftwm/wallpaper2.jpg
