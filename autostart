@@ -154,8 +154,8 @@ hc attr theme.border_width 5
 hc attr theme.floating.border_width 4
 hc attr theme.floating.outer_width 1
 hc attr theme.floating.outer_color $FOREGROUND
-hc attr theme.active.inner_color $BLUE
-hc attr theme.active.outer_color $BLUE
+hc attr theme.active.inner_color $ORANGE
+hc attr theme.active.outer_color $ORANGE
 hc attr theme.background_color $BACKGROUND
 
 hc set window_gap 0
