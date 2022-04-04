@@ -9,14 +9,12 @@ hc() {
 hc emit_hook reload
 # remove all existing keybindings
 #hc keyunbind --all
-
-
+pkill sxhkd &
+sxhkd &
 picom &
 syncthing -no-browser &
 emacs --fg-daemon &
 xsetroot -solid '#5A8E3A'
-pkill sxhkd &
-sxhkd &
 pkill polybar &
 polybar -c /home/thor/.config/polybar example &
 feh --bg-scale /home/thor/.config/herbstluftwm/wallpaper2.jpg
@@ -31,13 +29,13 @@ ORANGE='#d65d0e'
 RED='#9d0006'
 BLUE='#076678'
 
-hc keybind $Mod-d spawn dmenu_run
-hc keybind $Mod-e spawn emacsclient -c -a 'emacs'
-hc keybind $Mod-Shift-e quit
-hc keybind $Mod-Shift-r reload
-hc keybind $Mod-Shift-q close
-hc keybind $Mod-Shift-Return spawn "${TERMINAL:-xterm}" # use your $TERMINAL with xterm as fallbackh
-hc keybind $Mod-Return spawn st
+#hc keybind $Mod-d spawn dmenu_run
+#hc keybind $Mod-e spawn emacsclient -c -a 'emacs'
+#hc keybind $Mod-Shift-e quit
+#hc keybind $Mod-Shift-r reload
+#hc keybind $Mod-Shift-q close
+#hc keybind $Mod-Shift-Return spawn "${TERMINAL:-xterm}" # use your $TERMINAL with xterm as fallbackh
+#hc keybind $Mod-Return spawn st
 # basic movement in tiling and floating mode
 # focusing clients
 #hc keybind $Mod-Left  focus left
@@ -105,8 +103,8 @@ hc keybind $Mod-period use_index +1 --skip-visible
 hc keybind $Mod-comma  use_index -1 --skip-visible
 
 # layouting
-hc keybind $Mod-r remove
-hc keybind $Mod-s floating toggle
+#hc keybind $Mod-r remove
+#hc keybind $Mod-s floating toggle
 hc keybind $Mod-f fullscreen toggle
 hc keybind $Mod-p pseudotile toggle
 # The following cycles through the available layouts within a frame, but skips
