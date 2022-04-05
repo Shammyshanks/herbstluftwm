@@ -156,6 +156,22 @@ hc attr theme.active.inner_color $ORANGE
 hc attr theme.active.outer_color $ORANGE
 hc attr theme.background_color $BACKGROUND
 
+hc attr theme.title_height 15
+hc attr theme.title_depth 5
+hc attr theme.title_align center
+hc attr theme.title_when multiple_tabs
+hc attr theme.floating.title_when always
+hc attr theme.padding_top 3
+hc attr theme.tiling.title_height 15
+hc attr theme.active.title_color $FOREGROUND
+hc attr theme.normal.title_color $FOREGROUND
+
+# TABS
+hc attr theme.tab_color $RED
+hc attr theme.tab_title_color $RED
+hc attr theme.outer_width 0
+hc attr theme.normal.outer_color $RED
+
 hc set window_gap 0
 hc set frame_padding 0
 hc set smart_window_surroundings 0
