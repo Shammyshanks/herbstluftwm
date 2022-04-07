@@ -17,7 +17,7 @@ emacs --fg-daemon &
 xsetroot -solid '#5A8E3A'
 pkill polybar &
 polybar -c /home/thor/.config/polybar example &
-feh --bg-scale /home/thor/.config/herbstluftwm/wallpaper2.jpg
+feh --randomize --bg-scale /home/thor/.config/wallpaper
 
 # keybindings
 # if you have a super key you will be much happier with Mod set to Mod4
