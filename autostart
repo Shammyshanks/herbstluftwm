@@ -23,11 +23,11 @@ feh --randomize --bg-scale /home/thor/.config/wallpaper
 # if you have a super key you will be much happier with Mod set to Mod4
 #Mod=Mod1    # Use alt as the main modifier
 Mod=Mod4   # Use the super key as the main modifier
-BACKGROUND='#fbf1c7'
-FOREGROUND='#3c3836'
+BACKGROUND='#1d2021'
+FOREGROUND='#ebdbb2'
 ORANGE='#d65d0e'
-RED='#9d0006'
-BLUE='#076678'
+RED='#cc241d'
+BLUE='#458588'
 
 #hc keybind $Mod-d spawn dmenu_run
 #hc keybind $Mod-e spawn emacsclient -c -a 'emacs'
